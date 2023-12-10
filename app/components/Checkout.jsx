@@ -106,7 +106,7 @@ const Checkout = () => {
         Create Payment Link
       </button>
       <div className="text-black underline italic">
-      <Link href={paymentUrl}>klik disini untuk melakukan pembayaran</Link>
+      <Link href={paymentUrl} target="_blank">{paymentUrl}</Link>
       </div>
     </>
   );
